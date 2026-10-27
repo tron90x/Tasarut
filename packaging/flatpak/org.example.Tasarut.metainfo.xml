@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.example.Tasarut</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Tasarut (Flatpak local)</name>
+  <summary>Encrypt files individually</summary>
+  <summary xml:lang="fr">Chiffrer les fichiers individuellement</summary>
+  <summary xml:lang="kab">Wgelhen ifuyla yiwen yiwen</summary>
+  <description>
+    <p>Tasarut encrypts files on your device, with passwords and optional keyfiles. It includes compression, advanced formats, usage profiles and six offline visual themes.</p>
+    <p xml:lang="fr">Tasarut chiffre les fichiers sur votre appareil avec un mot de passe et des fichiers-clés facultatifs. Il propose la compression, des formats avancés, des profils et six thèmes disponibles hors ligne.</p>
+    <p>Choose XChaCha20 or full-round Threefish-1024-CTR with HMAC-SHA3-512. The volume determines the algorithm automatically when decrypting.</p>
+    <p xml:lang="fr">Choisissez XChaCha20 ou Threefish-1024-CTR à 80 tours avec HMAC-SHA3-512. Le volume détermine automatiquement l'algorithme au déchiffrement.</p>
+    <p>This local test package uses file chooser portals. TPM revocation is unavailable with its default device permissions, and filesystem TRIM may be unavailable. This is an experimental local distribution.</p>
+    <p xml:lang="fr">Ce paquet local de test utilise les portails de sélection de fichiers. La révocation TPM est indisponible avec ses permissions par défaut, et TRIM peut être indisponible. Il s'agit d'une distribution locale expérimentale.</p>
+  </description>
+  <launchable type="desktop-id">org.example.Tasarut.desktop</launchable>
+  <categories>
+    <category>System</category>
+    <category>Security</category>
+  </categories>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.4.0" date="2026-10-11" type="development">
+      <description>
+        <p>Initial local Flatpak package for sandbox and portal testing.</p>
+      </description>
+    </release>
+  </releases>
+</component>

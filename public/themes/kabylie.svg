@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#132b3f"/><stop offset=".6" stop-color="#76958c"/><stop offset="1" stop-color="#cbbd9d"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#ead4a4" stop-opacity=".57"/><stop offset="1" stop-color="#ead4a4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="stone" x2=".4" y2="1"><stop stop-color="#a9b9b1"/><stop offset=".55" stop-color="#577a79"/><stop offset="1" stop-color="#264e55"/></linearGradient>
+    <linearGradient id="forest" x2="0" y2="1"><stop stop-color="#416d59"/><stop offset="1" stop-color="#172f2d"/></linearGradient>
+    <linearGradient id="front" x2=".6" y2="1"><stop stop-color="#305041"/><stop offset="1" stop-color="#0d2426"/></linearGradient>
+    <symbol id="cedar" viewBox="0 0 60 130"><path d="M28 130h5V42h-5z" fill="#1b322f"/><path d="m30 0 14 37h-9l20 36H43l17 32H0l18-32H6l20-36H16z" fill="#173c35"/></symbol>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v1200H0z"/>
+  <ellipse cx="1390" cy="350" rx="470" ry="350" fill="url(#light)"/>
+  <g fill="none" stroke="#d5ded0" opacity=".12" stroke-width="18"><path d="M1050 248q310-36 650 10"/><path d="M40 375q310-30 590 0"/></g>
+  <path fill="#648484" d="m0 646 150-70 115 40 200-162 95 82 195-152 133 120 184-98 160 136 190-171 175 140 183-75 140 78v732H0z"/>
+  <path fill="url(#stone)" d="m0 820 220-160 126 16 183-197 75 49 167-219 110 86 64 80 130-49 108 103 121-182 97 137 135-71 177 223 107-34v603H0z"/>
+  <path fill="#dbe1d3" opacity=".85" d="m529 479 75 49 167-219 110 86 64 80-89-37-46 19-28-67-38 52-48 2-85 122-43-7-31 43zM1204 447l97 137-61-29-34-67-47 55z"/>
+  <g fill="none" stroke="#274d54" stroke-width="3" opacity=".4"><path d="m771 309-6 215-106 230M881 395l-38 179 75 150M1204 447l-51 229-70 95M1536 690l-159 150"/></g>
+  <path fill="#80978a" opacity=".45" d="M0 845q420-115 825-46t1095-66v120q-595-42-990 34T0 958z"/>
+  <path fill="url(#forest)" d="M0 954q225-215 498-176t508 139q265 13 529-163t385-85v531H0z"/>
+  <path fill="url(#front)" d="M0 892q370 80 724 198c320-200 558-88 1196-268v378H0z"/>
+  <g fill="none" stroke="#b9be83" stroke-opacity=".16" stroke-width="2"><path d="M1120 1098q340-125 690-194M1060 1130q360-113 720-167M1010 1163q460-100 730-143"/></g>
+  <g opacity=".95"><use href="#cedar" x="67" y="763" width="70" height="180"/><use href="#cedar" x="153" y="815" width="50" height="150"/><use href="#cedar" x="1720" y="690" width="90" height="220"/><use href="#cedar" x="1818" y="724" width="75" height="205"/></g>
+  <g fill="#d0b48b" opacity=".55"><path d="M1510 962h14v11h-14zM1530 950h16v12h-16zM1550 960h13v11h-13z"/></g>
+</svg>

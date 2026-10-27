@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=Tasarut (Flatpak local)
+Name[kab]=Tasarut (Flatpak adigan)
+Comment=Encrypt files individually
+Comment[fr]=Chiffrer les fichiers individuellement
+Comment[kab]=Wgelhen ifuyla yiwen yiwen
+Exec=org.example.Tasarut
+Icon=org.example.Tasarut
+Terminal=false
+Categories=System;Security;
+Keywords=encryption;privacy;files;key;
+Keywords[fr]=chiffrement;confidentialité;fichiers;clé;
+Keywords[kab]=awgelhen;tabaḍnit;ifuyla;tasarut;
+StartupNotify=true
+StartupWMClass=Org.example.Tasarut

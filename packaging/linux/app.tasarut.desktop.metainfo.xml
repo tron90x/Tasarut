@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>app.tasarut.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Tasarut</name>
+  <summary>Encrypt files individually</summary>
+  <summary xml:lang="fr">Chiffrer les fichiers individuellement</summary>
+  <summary xml:lang="kab">Sewhem ifuyla yiwen yiwen</summary>
+  <description>
+    <p>Tasarut encrypts each file separately on your device, using XChaCha20 and Argon2id. Its paranoid mode adds Serpent-256-CTR and HMAC-SHA3-512 authentication.</p>
+    <p xml:lang="fr">Tasarut chiffre chaque fichier séparément sur votre appareil avec XChaCha20 et Argon2id. Son mode paranoïaque ajoute Serpent-256-CTR et une authentification HMAC-SHA3-512.</p>
+    <p>Choose full-round Threefish-1024 in CTR mode with HMAC-SHA3-512 as an alternative, using separate encryption and authentication keys. The algorithm is detected automatically when decrypting.</p>
+    <p xml:lang="fr">Threefish-1024 à 80 tours, en mode CTR avec HMAC-SHA3-512 et des clés distinctes, est disponible comme autre choix. L'algorithme est détecté automatiquement au déchiffrement.</p>
+    <p>Generate passwords, use keyfiles, add public comments, compress files and process folders recursively. English, French and Kabyle interfaces are included.</p>
+    <p xml:lang="fr">Générez des mots de passe, utilisez des fichiers-clés, ajoutez des commentaires publics, compressez les fichiers et traitez les dossiers récursivement. L’interface est disponible en anglais, français et kabyle.</p>
+  </description>
+  <launchable type="desktop-id">Tasarut.desktop</launchable>
+  <categories>
+    <category>System</category>
+    <category>Security</category>
+  </categories>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.4.0" date="2026-10-05" type="development">
+      <description><p>Add explicit forced decryption, partial recovery and reports for damaged volumes.</p></description>
+    </release>
+    <release version="0.3.0" date="2026-10-05" type="development">
+      <description><p>Add streaming Reed–Solomon protection and automatic error correction for both encryption modes.</p></description>
+    </release>
+    <release version="0.2.0" date="2026-10-05" type="development">
+      <description><p>Add paranoid encryption and Fedora RPM packaging alongside Debian packages.</p></description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,28 @@
+[package]
+name = "tasarut"
+version = "0.4.0"
+description = "Individual file encryption with a modern, multilingual interface"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[lib]
+name = "tasarut_app"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tasarut-core = { path = "../crates/tasarut-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tempfile = "3"
+zeroize = "1"
+rustix = { version = "1", features = ["fs"] }
+libc = "0.2"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

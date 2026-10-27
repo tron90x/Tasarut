@@ -1,0 +1,28 @@
+[package]
+name = "tasarut-core"
+version = "0.4.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Streaming file encryption engine for Tasarut"
+
+[dependencies]
+argon2 = { version = "0.5", features = ["zeroize"] }
+blake2 = "0.10"
+chacha20 = { version = "0.9", features = ["zeroize"] }
+ctr = { version = "0.10", features = ["zeroize"] }
+hmac = "0.12"
+serpent = { version = "0.6", features = ["zeroize"] }
+threefish = { version = "0.6", features = ["zeroize"] }
+sha3 = "0.10"
+rand = "0.8"
+reed-solomon = "0.2.1"
+rustix = { version = "1", features = ["fs"] }
+serde = { version = "1", features = ["derive"] }
+tempfile = "3"
+thiserror = "2"
+walkdir = "2"
+zeroize = { version = "1", features = ["derive"] }
+zstd = "0.13"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+linux-raw-sys = { version = "0.12", features = ["ioctl"] }

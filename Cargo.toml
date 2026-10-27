@@ -1,0 +1,28 @@
+[workspace]
+members = ["crates/tasarut-core", "src-tauri"]
+default-members = ["crates/tasarut-core"]
+resolver = "2"
+
+# Keep memory-hard crypto practical during development and tests too.
+[profile.dev.package.argon2]
+opt-level = 3
+
+[profile.dev.package.blake2]
+opt-level = 3
+
+[profile.dev.package.serpent]
+opt-level = 3
+
+[profile.dev.package.threefish]
+opt-level = 3
+
+[profile.dev.package.sha3]
+opt-level = 3
+
+[profile.dev.package.reed-solomon]
+opt-level = 3
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true

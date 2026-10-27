@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#171829"/><stop offset=".46" stop-color="#784d56"/><stop offset=".8" stop-color="#d59165"/><stop offset="1" stop-color="#e3b584"/></linearGradient>
+    <radialGradient id="haze"><stop stop-color="#ffd99d" stop-opacity=".5"/><stop offset="1" stop-color="#f6b678" stop-opacity="0"/></radialGradient>
+    <linearGradient id="far" x2="0" y2="1"><stop stop-color="#ac715d"/><stop offset="1" stop-color="#714446"/></linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#d39a73"/><stop offset=".38" stop-color="#a36551"/><stop offset="1" stop-color="#512f36"/></linearGradient>
+    <linearGradient id="shade" x2="1" y2=".5"><stop stop-color="#402932"/><stop offset="1" stop-color="#a76b53"/></linearGradient>
+    <linearGradient id="front" x2=".8" y2="1"><stop stop-color="#975d49"/><stop offset=".52" stop-color="#422733"/><stop offset="1" stop-color="#211c2a"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v1200H0z"/>
+  <ellipse cx="1450" cy="430" rx="460" ry="370" fill="url(#haze)"/>
+  <circle cx="1450" cy="440" r="83" fill="#f9d19b" opacity=".87"/>
+  <g fill="#f5d8bc" opacity=".5"><circle cx="240" cy="100" r="1.4"/><circle cx="410" cy="215" r="1"/><circle cx="810" cy="83" r="1.3"/><circle cx="1630" cy="115" r="1.6"/><circle cx="1120" cy="190" r="1"/></g>
+  <path fill="url(#far)" d="M0 680q180-120 390-90t470 62q250 40 450-32t610-32v612H0z"/>
+  <path fill="url(#sand)" d="M0 760c320 80 580-135 810-138 310-4 460 235 1110 100v478H0z"/>
+  <path fill="url(#shade)" d="M810 622c80 120 72 175-160 282C442 1000 282 1040 0 1070v130h1920V722c-650 135-800-104-1110-100z"/>
+  <path fill="url(#sand)" d="M0 1060c420-320 740-144 1120-225 350-75 475-239 800-242v607H0z"/>
+  <path fill="url(#front)" d="M0 1060c420-320 740-144 1120-225-183 170-289 225-415 365H0z"/>
+  <path d="M0 1060c420-320 740-144 1120-225 350-75 475-239 800-242" fill="none" stroke="#e6b68c" stroke-opacity=".45" stroke-width="2"/>
+  <g fill="none" stroke="#dda67f" stroke-opacity=".11">
+    <path d="M980 943q490-37 940-225M1010 969q530-54 910-197M1050 996q510-44 870-171M1100 1024q430-13 820-145M1150 1053q410-11 770-112M1200 1084q400-14 720-77M1260 1116q330-6 660-50"/>
+  </g>
+</svg>

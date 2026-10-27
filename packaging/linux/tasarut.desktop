@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Tasarut
+Comment=Encrypt files individually
+Comment[fr]=Chiffrer les fichiers individuellement
+Comment[kab]=Sewhem ifuyla yiwen yiwen
+Exec=tasarut
+Icon=tasarut
+Terminal=false
+Categories=System;Security;
+Keywords=encryption;privacy;files;key;
+Keywords[fr]=chiffrement;confidentialité;fichiers;clé;
+Keywords[kab]=asewhem;tabaḍnit;ifuyla;tasarut;
+StartupNotify=true
+StartupWMClass=Tasarut

@@ -1,0 +1,22 @@
+node_modules/
+dist/
+target/
+*.tasarut
+*.part
+.DS_Store
+test-results/
+playwright-report/
+src-tauri/gen/
+
+# Local configuration and private key material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Working volumes and recovery outputs
+*.tasarut.rev
+*.recovered

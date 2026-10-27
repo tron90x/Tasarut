@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#071d36"/><stop offset=".58" stop-color="#24586c"/><stop offset="1" stop-color="#84b9bc"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#367a89"/><stop offset=".4" stop-color="#0b425a"/><stop offset="1" stop-color="#041a31"/></linearGradient>
+    <radialGradient id="moonlight"><stop stop-color="#c5e6dc" stop-opacity=".47"/><stop offset="1" stop-color="#a5d2d6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wave" x2=".6" y2="1"><stop stop-color="#4dada7"/><stop offset=".45" stop-color="#155268"/><stop offset="1" stop-color="#072b44"/></linearGradient>
+    <linearGradient id="foam" x2="1"><stop stop-color="#b3eae0" stop-opacity="0"/><stop offset=".55" stop-color="#b3eae0" stop-opacity=".65"/><stop offset="1" stop-color="#b3eae0" stop-opacity=".12"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v1200H0z"/>
+  <ellipse cx="1480" cy="265" rx="430" ry="350" fill="url(#moonlight)"/>
+  <circle cx="1480" cy="260" r="53" fill="#d2e9dc" opacity=".88"/>
+  <g fill="#c9e5e7" opacity=".65"><circle cx="200" cy="90" r="1"/><circle cx="520" cy="260" r="1.4"/><circle cx="930" cy="140" r="1"/><circle cx="1180" cy="85" r="1.3"/><circle cx="1810" cy="170" r="1.5"/></g>
+  <g fill="none" stroke="#a6c4cc" stroke-opacity=".1" stroke-width="18"><path d="M0 406q310-66 780-20"/><path d="M1230 422q420-51 690-4"/></g>
+  <path fill="url(#sea)" d="M0 574h1920v626H0z"/>
+  <path stroke="#aad3ce" stroke-opacity=".3" d="M0 574h1920"/>
+  <g fill="none" stroke="#bce5dc" stroke-opacity=".18"><path d="M1410 604h140M1375 622h217M1450 641h140M1330 660h300M1400 690h230M1300 718h390M1320 747h420"/></g>
+  <path fill="#1b6576" d="M0 747q320-105 580-8c430 122 845-148 1340-54v515H0z"/>
+  <path fill="url(#wave)" d="M0 940c420 190 670-243 1050-155 350 80 500 82 870-89v504H0z"/>
+  <path d="M0 940c420 190 670-243 1050-155 350 80 500 82 870-89" fill="none" stroke="url(#foam)" stroke-width="5"/>
+  <path fill="#082f48" d="M0 1038q320-95 730 18c425 123 730-147 1190-77v221H0z"/>
+  <path d="M0 1038q320-95 730 18c425 123 730-147 1190-77" fill="none" stroke="url(#foam)" stroke-width="3"/>
+  <g fill="none" stroke="#82d2cb" stroke-opacity=".13"><path d="M30 1100q300-70 630 0M70 1130q310-60 540 0M1100 1070q360-110 750-15M1180 1110q310-80 650-12"/></g>
+  <path fill="#071d30" d="m0 859 82 42 46 83 65 20 43 108 120 88H0z"/>
+</svg>
